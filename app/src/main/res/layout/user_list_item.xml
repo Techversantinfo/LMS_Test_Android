@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:weightSum="1"
+    android:layout_height="70dp"
+    android:padding="0dp"
+    android:id="@+id/containerLayout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".14"
+        android:padding="5dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_tick"/>
+        <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".6"
+        android:orientation="vertical"
+        android:weightSum="1">
+        <com.example.lmsmobileapp.View.Widgets.LMSOpenSansRegularTextView
+            android:id="@+id/tvStudentName"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".5"
+            android:textColor="@color/text_color"
+            android:text="John Doe"
+            android:textSize="18dp"
+            android:layout_gravity="bottom"
+            android:textStyle="bold"
+            android:gravity="bottom"
+            android:padding="2dp"
+            />
+        <com.example.lmsmobileapp.View.Widgets.LMSOpenSansRegularTextView
+            android:id="@+id/tvGroupName"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".5"
+            android:textColor="@color/text_color"
+            android:text="Default Group"
+            android:textSize="14dp"
+            android:gravity="top"
+            android:padding="2dp"
+            />
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".26"
+        android:orientation="vertical"
+        android:weightSum="1">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".5"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_dots"/>
+        <com.example.lmsmobileapp.View.Widgets.LMSOpenSansRegularTextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".5"
+            android:textColor="@color/text_color"
+            android:text="Default Group"
+            android:textAlignment="center"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:textSize="12dp"
+            />
+    </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

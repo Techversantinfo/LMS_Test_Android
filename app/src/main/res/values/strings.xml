@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LMS Mobile App</string>
+    <string name="logo_1">KnowledgeCity</string>
+    <string name="logo_2">Learning Solutions</string>
+    <string name="title_1">Welcome to the Learning Management System</string>
+    <string name="title_2">Please log in to continue</string>
+    <string name="hint_user">Username</string>
+    <string name="hint_pass">Password</string>
+    <string name="hint_remember">Remember me</string>
+    <string name="logout">Log Out</string>
+    <string name="no_user_data">No user data found!</string>
+</resources>
